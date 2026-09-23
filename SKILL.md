@@ -1,6 +1,6 @@
 ---
 name: prc-civil-code
-description: "Structured knowledge base for the Civil Code of the People's Republic of China (中华人民共和国民法典). Use for PRC civil-law issue spotting, claim-basis analysis, Code article navigation, contract/property/personality/marriage/succession/tort questions, or studying the Code's system. Verify current judicial interpretations and exact statutory wording before high-stakes reliance."
+description: "Structured knowledge base for the PRC Civil Code (中华人民共和国民法典) and the SPC sales-contract interpretation (2020 revision). Use for civil-law study, claim-basis analysis, article navigation, sales disputes, delivery and invoices, quality objections, overdue payment, retention of title, and contract/property/personality/marriage/succession/tort questions. Verify current authoritative law before high-stakes reliance."
 ---
 
 <!-- argument-hint: [争议事实、主题、编章或条号] -->
@@ -55,6 +55,7 @@ description: "Structured knowledge base for the Civil Code of the People's Repub
 | [ch08](chapters/ch08-system-application.md) | 跨编 | 请求权基础与法律检索方法 |
 
 ## 主题路由
+- **买卖合同、货款、发票、交付、质量异议、所有权保留、分期付款** → ch03 + [买卖合同解释分析指南](references/sales-interpretation-2020.md)。引用解释时读取[2020修正版33条原文](references/sales-interpretation-2020-text.md)，使用修正后的条号。
 - **合同效力、违约、解除、保证、租赁、委托** → ch01 + ch03
 - **房屋、所有权、抵押、质押、居住权、业主共有** → ch02，必要时 ch03
 - **隐私、肖像、名誉、个人信息、性骚扰** → ch04，侵权救济另看 ch07
@@ -71,4 +72,4 @@ description: "Structured knowledge base for the Civil Code of the People's Repub
 - [authority-and-update.md](references/authority-and-update.md) — 权威来源、版本与更新边界
 
 ## 范围限制
-本技能只把《民法典》正文结构化，不自动包含司法解释、指导性案例、地方规定或其他部门法。它不替代针对具体案件的证据审查和专业法律意见。
+本技能包含《民法典》体系与1260条索引，以及《最高人民法院关于审理买卖合同纠纷案件适用法律问题的解释》（2020修正）的33条原文、逐条导航和分析指南。其他司法解释、指导性案例、地方规定和部门法未完整收录。不要把司法解释条号当作法典条号，不要把普通买卖解释当作商品房专门解释；实际适用仍须核验新法与时间效力。它不替代针对具体案件的证据审查和专业法律意见。
