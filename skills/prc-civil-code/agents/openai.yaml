@@ -1,0 +1,13 @@
+interface:
+  display_name: 中国民法典
+  short_description: 中国《民法典》的结构化检索、请求权分析与体系学习工具
+  default_prompt: 使用 $prc-civil-code 按请求权基础分析这个民事法律问题，并区分法典正文、司法解释与案例。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

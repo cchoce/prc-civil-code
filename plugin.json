@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prc-civil-code",
+  "version": "1.0.0",
+  "description": "Chinese Civil Code navigation and legal analysis with the 2020 SPC sales-contract interpretation.",
+  "author": {
+    "name": "cchoce"
+  },
+  "repository": "https://github.com/cchoce/prc-civil-code",
+  "keywords": [
+    "civil-law",
+    "china",
+    "contracts"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "中国民法典与买卖合同解释",
+        "shortDescription": "民法学习、法条定位与合同分析",
+        "longDescription": "提供中国《民法典》七编体系、1260条条号索引、请求权基础分析方法，以及买卖合同司法解释（2020修正）33条原文和分析指南。民法典部分不包含全部法条正文；涉及具体案件时须核验权威现行法律。",
+        "developerName": "cchoce",
+        "category": "Productivity",
+        "capabilities": [
+          "民法体系学习",
+          "条文定位",
+          "请求权基础分析",
+          "买卖合同纠纷分析"
+        ],
+        "websiteURL": "https://github.com/cchoce/prc-civil-code",
+        "defaultPrompt": [
+          "使用 prc-civil-code 分析这份合同的效力、履行和违约风险。",
+          "使用 prc-civil-code 结合买卖合同司法解释分析这起货款纠纷。",
+          "使用 prc-civil-code 解释合同无效与可撤销的区别。"
+        ]
+      }
+    }
+  }
+}
